@@ -87,11 +87,14 @@ hr {
 
 .container {
   width: 65%;
+  max-width: 1200px;
+  min-width: 800px;
   margin: 0 auto;
 }
 
 header .container {
   width: 95%;
+  min-width: 1050px;
 }
 
 #jumbo .container {
