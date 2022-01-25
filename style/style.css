@@ -27,6 +27,24 @@ body {
   background-color: white;
 }
 
+header {
+  line-height: 80px;
+}
+
+main img {
+  width: 100%;
+}
+
+input[type="radio"] {
+  margin-right: 0.5rem;
+}
+
+hr {
+  color: grey;
+}
+
+/* Global - Font */
+
 h1 {
   font-size: 4.2rem;
 }
@@ -47,6 +65,8 @@ h5 {
   font-size: 1.1rem;
 }
 
+/* Global - a */
+
 a {
   text-decoration: none;
   color: black;
@@ -61,12 +81,10 @@ main a {
   color: black;
 }
 
+/* Global - li */
+
 li {
   list-style-type: none;
-}
-
-header {
-  line-height: 80px;
 }
 
 header nav ul li {
@@ -77,18 +95,6 @@ header nav ul li {
 main ul li {
   font-size: 0.9rem;
   margin-bottom: 1rem;
-}
-
-main img {
-  width: 100%;
-}
-
-input[type="radio"] {
-  margin-right: 0.5rem;
-}
-
-hr {
-  color: grey;
 }
 
 /* Classes */
@@ -109,6 +115,13 @@ header .container {
   width: 80%;
 }
 
+#jumbo .img-container {
+  top: 0;
+  right: 0;
+}
+
+/* Classes - Display */
+
 .inline-block {
   display: inline-block;
 }
@@ -116,6 +129,8 @@ header .container {
 .block {
   display: block;
 }
+
+/* Classes - Vertical Align */
 
 .vertical-middle {
   vertical-align: middle;
@@ -125,18 +140,13 @@ header .container {
   vertical-align: top;
 }
 
+/* Classes - Float */
+
 .clearfix::after {
   content: "";
   display: table;
   clear: both;
 }
-
-#jumbo .img-container {
-  top: 0;
-  right: 0;
-}
-
-/* Classes - Float */
 
 .float-left {
   float: left;
@@ -274,13 +284,11 @@ header .btn {
   line-height: 1.7;
 }
 
-/* Font Awesome */
+/* Classes - Font Awesome */
 
 .big-icon {
   font-size: 3rem;
 }
-
-/* Classes - Other */
 
 /* ID */
 
