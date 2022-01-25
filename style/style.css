@@ -1,0 +1,77 @@
+/* Import */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+
+/* Variables */
+
+:root {
+  --light-blue: #b4d0e7;
+  --blue: #0061ff;
+}
+
+/* Reset */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+header {
+  background-color: aqua;
+  line-height: 80px;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+/* Classes */
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+header .container {
+  width: 95%;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.vertical-middle {
+  vertical-align: middle;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.btn {
+  border: none;
+  color: white;
+  background-color: var(--blue);
+}
