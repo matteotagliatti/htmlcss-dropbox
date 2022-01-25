@@ -113,6 +113,10 @@ header .container {
   vertical-align: middle;
 }
 
+.vertical-top {
+  vertical-align: top;
+}
+
 .clearfix::after {
   content: "";
   display: table;
@@ -195,6 +199,10 @@ header .container {
 }
 
 /* Classes - Width */
+
+.h60 {
+  height: 60rem;
+}
 
 .w33 {
   width: calc(33% - 1.35rem);
