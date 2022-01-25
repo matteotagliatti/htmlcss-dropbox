@@ -35,6 +35,10 @@ h2 {
   font-size: 2.5rem;
 }
 
+h3 {
+  font-size: 2rem;
+}
+
 h4 {
   font-size: 1.3rem;
 }
@@ -174,6 +178,10 @@ header .container {
   margin-bottom: 4rem;
 }
 
+.mt2 {
+  margin-top: 2rem;
+}
+
 .p2 {
   padding: 2rem;
 }
@@ -198,7 +206,7 @@ header .container {
   border-bottom: var(--base-border);
 }
 
-/* Classes - Width */
+/* Classes - Height & Width */
 
 .h60 {
   height: 60rem;
@@ -210,6 +218,10 @@ header .container {
 
 .w35 {
   width: 35%;
+}
+
+.w48 {
+  width: 48%;
 }
 
 .w65 {
@@ -230,6 +242,12 @@ header .btn {
   font-size: 0.8rem;
 }
 
+.btn.black {
+  border: 1px solid black;
+  color: black;
+  background-color: transparent;
+}
+
 /* Classes - Font & Text */
 
 .text-center {
@@ -246,6 +264,10 @@ header .btn {
 
 .text-small {
   font-size: 0.8rem;
+}
+
+.big-line-height {
+  line-height: 1.7;
 }
 
 /* Font Awesome */
