@@ -1,6 +1,6 @@
 /* Import */
 
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap");
 
 /* Variables */
 
@@ -21,7 +21,17 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  font-weight: 500;
   color: black;
+  background-color: white;
+}
+
+h1 {
+  font-size: 4.2rem;
+}
+
+a {
+  text-decoration: none;
 }
 
 li {
@@ -29,18 +39,62 @@ li {
 }
 
 header {
-  background-color: aqua;
   line-height: 80px;
 }
 
 header nav ul li {
   display: inline-block;
+  margin-right: 2rem;
+}
+
+main img {
+  width: 100%;
 }
 
 /* Classes */
 
+/* Classes - Position */
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+/* Classes - Margin & Padding */
+
+.mr2 {
+  margin-right: 2rem;
+}
+
+.mb1 {
+  margin-bottom: 1rem;
+}
+
+.mb2 {
+  margin-bottom: 2rem;
+}
+
+.p6 {
+  padding: 6rem 0;
+}
+
+/* Classes - Width */
+
+.w35 {
+  width: 35%;
+}
+
+.w65 {
+  width: 65%;
+}
+
+/* Classes - Others */
+
 .container {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -72,6 +126,19 @@ header .container {
 
 .btn {
   border: none;
+  padding: 0.4rem 0.8rem;
   color: white;
   background-color: var(--blue);
+}
+
+/* ID */
+
+#jumbo {
+  background-color: var(--light-blue);
+  padding-bottom: -30px;
+}
+
+#jumbo .img-container {
+  top: 0;
+  right: 0;
 }
