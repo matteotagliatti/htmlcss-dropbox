@@ -57,6 +57,10 @@ main a {
   text-decoration: underline;
 }
 
+#jumbo a i {
+  color: black;
+}
+
 li {
   list-style-type: none;
 }
