@@ -7,6 +7,7 @@
 :root {
   --light-blue: #b4d0e7;
   --blue: #0061ff;
+  --base-border: 1px solid grey;
 }
 
 /* Reset */
@@ -36,6 +37,7 @@ h2 {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 li {
@@ -62,12 +64,16 @@ input[type="radio"] {
 /* Classes */
 
 .container {
-  width: 80%;
+  width: 65%;
   margin: 0 auto;
 }
 
 header .container {
   width: 95%;
+}
+
+#jumbo .container {
+  width: 80%;
 }
 
 .inline-block {
@@ -82,6 +88,15 @@ header .container {
   content: "";
   display: table;
   clear: both;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#jumbo .img-container {
+  top: 0;
+  right: 0;
 }
 
 /* Classes - Float */
@@ -104,7 +119,7 @@ header .container {
   position: absolute;
 }
 
-/* Classes - Margin & Padding */
+/* Classes - Margin, Padding % Border */
 
 .mr2 {
   margin-right: 2rem;
@@ -118,11 +133,27 @@ header .container {
   margin-bottom: 2rem;
 }
 
+.p-5 {
+  padding: 0.5rem 0;
+}
+
 .p6 {
   padding: 6rem 0;
 }
 
+.border {
+  border: var(--base-border);
+}
+
+.border-bottom {
+  border-bottom: var(--base-border);
+}
+
 /* Classes - Width */
+
+.w33 {
+  width: 33%;
+}
 
 .w35 {
   width: 35%;
@@ -158,9 +189,4 @@ header .btn {
 #jumbo {
   background-color: var(--light-blue);
   margin-bottom: 8rem;
-}
-
-#jumbo .img-container {
-  top: 0;
-  right: 0;
 }
