@@ -197,7 +197,7 @@ header .container {
 /* Classes - Width */
 
 .w33 {
-  width: calc(33% - 2rem);
+  width: calc(33% - 1.35rem);
 }
 
 .w35 {
@@ -236,6 +236,10 @@ header .btn {
   color: var(--blue);
 }
 
+.text-small {
+  font-size: 0.8rem;
+}
+
 /* Font Awesome */
 
 .big-icon {
@@ -248,5 +252,11 @@ header .btn {
 
 #jumbo {
   background-color: var(--light-blue);
-  margin-bottom: 8rem;
+  margin-bottom: 6rem;
+}
+
+#btn-sell {
+  right: 2rem;
+  top: 2rem;
+  padding: 0.5rem 1.5rem;
 }
