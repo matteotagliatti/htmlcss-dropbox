@@ -101,18 +101,20 @@ main ul li {
 
 .container {
   width: 65%;
-  max-width: 1200px;
+  max-width: 1000px;
   min-width: 800px;
   margin: 0 auto;
 }
 
 header .container {
   width: 95%;
+  max-width: 1800px;
   min-width: 1050px;
 }
 
 #jumbo .container {
   width: 80%;
+  max-width: 1300px;
 }
 
 #jumbo .img-container {
@@ -234,8 +236,8 @@ header .container {
   width: 35%;
 }
 
-.w48 {
-  width: 48%;
+.w55 {
+  width: 55%;
 }
 
 .w65 {
