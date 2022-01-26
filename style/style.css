@@ -38,7 +38,6 @@ footer {
 
 footer hr {
   width: 100px;
-  opacity: 0.9;
 }
 
 footer span,
@@ -57,6 +56,7 @@ input[type="radio"] {
 
 hr {
   color: grey;
+  opacity: 0.8;
 }
 
 /* Global - Font */
