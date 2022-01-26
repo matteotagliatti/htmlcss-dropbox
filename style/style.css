@@ -286,6 +286,10 @@ header .btn {
   line-height: 1.7;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 /* Classes - Font Awesome */
 
 .big-icon {
