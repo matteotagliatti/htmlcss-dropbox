@@ -31,6 +31,22 @@ header {
   line-height: 80px;
 }
 
+footer {
+  color: white;
+  background-color: black;
+}
+
+footer hr {
+  width: 100px;
+  opacity: 0.9;
+}
+
+footer span,
+footer i {
+  opacity: 0.9;
+  margin-right: 7px;
+}
+
 main img {
   width: 100%;
 }
@@ -59,6 +75,10 @@ h3 {
 
 h4 {
   font-size: 1.3rem;
+}
+
+footer h4 {
+  margin-bottom: 1.5rem;
 }
 
 h5 {
@@ -97,6 +117,35 @@ main ul li {
   margin-bottom: 1rem;
 }
 
+footer ul li {
+  margin-bottom: 0.8rem;
+  opacity: 0.9;
+}
+
+/* General - Teams, Logos */
+
+#logos-review > div {
+  height: 370px;
+}
+
+#logos-review hr {
+  width: 50px;
+}
+
+.logos img {
+  width: 50%;
+  margin: auto; /* Position elements at center */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: brightness(0) invert(1); /* Images to white */
+}
+
+.logos div {
+  height: 185px;
+}
+
 /* Classes */
 
 .container {
@@ -112,7 +161,8 @@ header .container {
   min-width: 1050px;
 }
 
-#jumbo .container {
+#jumbo .container,
+footer .container {
   width: 80%;
   max-width: 1300px;
 }
@@ -236,6 +286,10 @@ header .container {
   height: 60rem;
 }
 
+.w20 {
+  width: 20%;
+}
+
 .w25 {
   width: 25%;
 }
@@ -326,30 +380,6 @@ header .btn {
 
 .bg-light-blue {
   background-color: var(--light-blue);
-}
-
-/* Classes - Teams, Logos */
-
-#logos-review > div {
-  height: 370px;
-}
-
-#logos-review hr {
-  width: 50px;
-}
-
-.logos img {
-  width: 50%;
-  margin: auto; /* Position elements at center */
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  filter: brightness(0) invert(1); /* Images to white */
-}
-
-.logos div {
-  height: 185px;
 }
 
 /* Classes - Font Awesome */
