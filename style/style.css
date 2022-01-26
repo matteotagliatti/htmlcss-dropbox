@@ -161,7 +161,7 @@ footer ul li {
   height: 210px;
 }
 
-/* Classes */
+/* Classes - Containers */
 
 .container {
   width: 65%;
@@ -343,7 +343,7 @@ header .btn {
   font-size: 0.8rem;
 }
 
-.btn.black {
+.btn.dark {
   border: 1px solid black;
   color: black;
   background-color: transparent;
@@ -355,28 +355,16 @@ header .btn {
 
 /* Classes - Font & Text */
 
-.text-center {
-  text-align: center;
+.text-small {
+  font-size: 0.8rem;
 }
 
 .font-bold {
   font-weight: 700;
 }
 
-.text-blue {
-  color: var(--blue);
-}
-
-.text-black {
-  color: black;
-}
-
-.text-dark-red {
-  color: #61082b;
-}
-
-.text-small {
-  font-size: 0.8rem;
+.text-center {
+  text-align: center;
 }
 
 .big-line-height {
@@ -385,6 +373,20 @@ header .btn {
 
 .underline {
   text-decoration: underline;
+}
+
+/* Classes - Color */
+
+.blue {
+  color: var(--blue);
+}
+
+.black {
+  color: black;
+}
+
+.dark-red {
+  color: #61082b;
 }
 
 /* Classes - Backgrounds */
