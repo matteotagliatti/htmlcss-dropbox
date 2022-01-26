@@ -228,12 +228,20 @@ header .container {
   height: 60rem;
 }
 
+.w25 {
+  width: 25%;
+}
+
 .w33 {
   width: calc(33% - 1.35rem);
 }
 
 .w35 {
   width: 35%;
+}
+
+.w50 {
+  width: 50%;
 }
 
 .w55 {
@@ -278,6 +286,10 @@ header .btn {
   color: var(--blue);
 }
 
+.text-white path {
+  fill: white;
+}
+
 .text-small {
   font-size: 0.8rem;
 }
@@ -288,6 +300,22 @@ header .btn {
 
 .underline {
   text-decoration: underline;
+}
+
+/* Classes - Logos */
+
+.logos img {
+  width: 50%;
+  margin: auto; /* Position elements at center */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: brightness(0) invert(1); /* Images to white */
+}
+
+.logos div {
+  height: 185px;
 }
 
 /* Classes - Font Awesome */
@@ -307,4 +335,22 @@ header .btn {
   right: 2rem;
   top: 2rem;
   padding: 0.5rem 1.5rem;
+}
+
+/* ID - Logos */
+
+#designit {
+  background-color: #a2d39b;
+}
+
+#asu {
+  background-color: #61082b;
+}
+
+#uf {
+  background-color: #0093ce;
+}
+
+#topps {
+  background-color: #ff1c1c;
 }
