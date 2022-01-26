@@ -404,6 +404,7 @@ header .btn {
 
 #designit {
   background-color: #a2d39b;
+  border: 8px solid #d0e9cd;
 }
 
 #asu {
@@ -416,4 +417,20 @@ header .btn {
 
 #topps {
   background-color: #ff1c1c;
+}
+
+#wbf {
+  background-color: #d5001f;
+}
+
+#hc {
+  background-color: #b4d0e7;
+}
+
+#lp {
+  background-color: #0d2481;
+}
+
+#cco {
+  background-color: #ffd830;
 }
