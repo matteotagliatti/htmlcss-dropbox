@@ -275,16 +275,16 @@ footer .container {
   padding: 0.5rem 0;
 }
 
-.py1 {
-  padding: 1rem 0;
-}
-
 .py5 {
   padding: 5rem 0;
 }
 
 .py8 {
   padding: 8rem 0;
+}
+
+.pb3 {
+  padding-bottom: 3rem;
 }
 
 .border {
