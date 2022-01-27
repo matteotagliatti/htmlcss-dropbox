@@ -150,6 +150,11 @@ footer ul li {
   opacity: 0.9;
 }
 
+footer ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 /* General - Teams, Logos */
 
 #logos-review > div {
@@ -350,6 +355,10 @@ footer .container {
   color: white;
   background-color: var(--blue);
   text-decoration: none;
+}
+
+.btn:hover {
+  opacity: 0.9;
 }
 
 header .btn {
