@@ -135,9 +135,14 @@ header nav ul li {
   margin-right: 2rem;
 }
 
+main ul {
+  margin-left: 1.2rem;
+}
+
 main ul li {
   font-size: 0.9rem;
   margin-bottom: 1rem;
+  text-indent: -9px;
 }
 
 footer ul li {
@@ -423,6 +428,10 @@ header .btn {
 #btn-sell {
   right: 2rem;
   top: 2rem;
+}
+
+#logos-review {
+  min-width: 1000px;
 }
 
 /* ID - Logos */
