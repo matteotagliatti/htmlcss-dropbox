@@ -427,6 +427,17 @@ header .btn {
   font-size: 3rem;
 }
 
+/* Classes - FAQ Section */
+
+.accord-p {
+  display: none;
+}
+
+.accord:hover > .accord-p {
+  display: block;
+  margin-top: 1rem;
+}
+
 /* ID */
 
 #jumbo {
