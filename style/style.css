@@ -430,11 +430,18 @@ header .btn {
 /* Classes - FAQ Section */
 
 .accord-p {
-  display: none;
+  visibility: hidden;
+  height: 0;
+  opacity: 0;
+  /* display: none; */
+  transition: opacity 0.5s;
 }
 
 .accord:hover > .accord-p {
-  display: block;
+  visibility: visible;
+  height: 100%;
+  opacity: 1;
+  /* display: block; */
   margin-top: 1rem;
 }
 
