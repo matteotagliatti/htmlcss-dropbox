@@ -162,7 +162,7 @@ footer ul li:hover {
 /* General - Teams, Logos */
 
 #logos-review > div {
-  height: 420px;
+  height: 40vh;
 }
 
 #logos-review hr {
@@ -188,7 +188,7 @@ footer ul li:hover {
 .container {
   width: 65%;
   max-width: 1000px;
-  min-width: 800px;
+  min-width: 930px;
   margin: 0 auto;
 }
 
